@@ -25,7 +25,7 @@
 #if __has_include("CocoaLumberjack.h") || __has_include("CocoaLumberjack/CocoaLumberjack.h")
     #define MR_LOG_LEVEL_DEF (DDLogLevel)[MagicalRecord loggingLevel]
     #define CAST (DDLogFlag)
-    #import <CocoaLumberjack/CocoaLumberjack.h>
+@import CocoaLumberjack;
 #else
     #define MR_LOG_LEVEL_DEF [MagicalRecord loggingLevel]
     #define LOG_ASYNC_ENABLED YES

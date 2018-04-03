@@ -73,6 +73,7 @@
 		581ECBF8187F660B00084FEE /* MultipleEntitiesWithNoPrimaryKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 581ECBF6187F660B00084FEE /* MultipleEntitiesWithNoPrimaryKey.json */; };
 		581ECBF9187F663100084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581ECBEB187F63FF00084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m */; };
 		581ECBFA187F663200084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581ECBEB187F63FF00084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m */; };
+		637F30EB20736B1500BEBC4C /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637F30EC20736B1500BEBC4C /* CocoaLumberjack.framework */; };
 		9004F4DE1A94C76A00A61312 /* libMagicalRecord.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF97BB1749843F008D9D13 /* libMagicalRecord.dylib */; };
 		9004F4DF1A94C76E00A61312 /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CF97AB17498414008D9D13 /* libMagicalRecord.a */; };
 		9004F4E21A94CBCF00A61312 /* DifferentClassNameMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9099492817C2F42100BC2B5C /* DifferentClassNameMapping.m */; };
@@ -639,6 +640,7 @@
 /* Begin PBXFileReference section */
 		581ECBEB187F63FF00084FEE /* ImportMultipleEntitiesWithNoPrimaryKeyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportMultipleEntitiesWithNoPrimaryKeyTests.m; sourceTree = "<group>"; };
 		581ECBF6187F660B00084FEE /* MultipleEntitiesWithNoPrimaryKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MultipleEntitiesWithNoPrimaryKey.json; path = Fixtures/MultipleEntitiesWithNoPrimaryKey.json; sourceTree = "<group>"; };
+		637F30EC20736B1500BEBC4C /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9004F5211A94CBCF00A61312 /* MagicalRecord for iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord for iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9004F5661A94CBF900A61312 /* MagicalRecord for OS X Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicalRecord for OS X Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9007B1491C5A416500C64F94 /* MagicalRecord+ShorthandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord+ShorthandTests.m"; sourceTree = "<group>"; };
@@ -821,6 +823,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637F30EB20736B1500BEBC4C /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,6 +869,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637F30EA20736B1500BEBC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				637F30EC20736B1500BEBC4C /* CocoaLumberjack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		902CE13718F61E170024F47C /* Abstract */ = {
 			isa = PBXGroup;
 			children = (
@@ -991,6 +1002,7 @@
 				C77E5FA513D0CBA600298F87 /* Tests */,
 				90425374187102DC0066DA41 /* Support */,
 				C721C7B113D0A3AF0097AB6F /* Products */,
+				637F30EA20736B1500BEBC4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
